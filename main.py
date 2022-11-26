@@ -36,6 +36,7 @@ def locate_and_click_the_target(image):
      print('clicked')
 
 f1 = Frame(root,bg = 'red',width = 400, height = 580)          # FRAME SWITCHING
+ca = Frame(root,bg = 'red',width = 400, height = 580)          # FRAME SWITCHING
 f2 = Frame(root,bg = 'red')
 #Label(f1,text = 'frame1').pack()
 #Label(f2,text = 'frame2').pack()
