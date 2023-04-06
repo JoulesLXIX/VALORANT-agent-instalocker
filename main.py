@@ -499,7 +499,7 @@ content = file1.readlines()
 clicked1 = StringVar()
 clicked1.set((content[0]).replace('/n',''))
 OptionMenu(canvas2, clicked1, *options).grid(row = 0, column = 1, pady = 20, padx = 20)
-Button(canvas2 , text = "set" , command = lambda: show(l1,clicked1,1) ).grid(row = 0, column = 2, pady = 20, padx = 20)
+Button(canvas2 , bg = '#3A7EB8', text = "set" , command = lambda: show(l1,clicked1,1) ).grid(row = 0, column = 2, pady = 20, padx = 20)
 l1 = Label(canvas2 , text = clicked1.get())
 l1.grid(row = 0, column = 3, pady = 20, padx = 20)
 clicked2 = StringVar()
@@ -565,4 +565,3 @@ button_stop = tkinter.Button(
                             ).pack()
 raise_frame2()
 mainloop()
-
